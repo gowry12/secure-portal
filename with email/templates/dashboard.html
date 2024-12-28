@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>WELCOME, {{ user.name }}</h2>
+    <p>Email: {{ user.email }}</p>
+    <a href="/logout" class="btn btn-dark">Logout</a>
+  </div>
+</body>
+</html>
